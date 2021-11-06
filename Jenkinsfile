@@ -1,20 +1,11 @@
 pipeline{
     agent any 
-    environment{
-        VERSION = "${env.BUILD_ID}"
-    }
     stages{
-        stage("Test"){
-            }
+        stage('Build'){
             steps{
-              echo "==========STEP ONE=============="
-                    }
-
-                }  
+                echo 'Hello World'
             }
         }
-
     }
-
-
+       
 }
