@@ -29,6 +29,6 @@ test {
 sonarqube {
     properties {
         property 'sonar.host.url', 'http://35.239.247.169:9001'
-        property 'sonar.login', '******'
+      //  property 'sonar.login', '******'
     }
 }
